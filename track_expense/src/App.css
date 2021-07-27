@@ -3,8 +3,8 @@
   max-width: 400px;
   min-height: 450px;
   margin: 0 auto;
-  background-color:rgb(5, 1, 1);
-  box-shadow: 0 0 10px rgb(155, 68, 212);
+  background-color:rgb(14, 18, 19);
+  box-shadow: 0 0 10px rgb(16, 15, 17);
   margin-top: 50px;
   padding: 15px 10px;
   font-size: 20px;
@@ -37,14 +37,16 @@
 
 .transaction-form input{
   width: 100%;
-  margin-top: 10px;
-  padding: 5px 0px ;
+  margin: 10px 100px 0px 0px;
+  padding: 8px 0px;
+  border-radius: 4px;
 
 }
 .transaction-list{
   margin: 0;
   padding: 20px 45px;
 }
+
 .transaction-list > li {
   display: flex;
   justify-content: space-between;
@@ -134,8 +136,8 @@
 
 
 .transaction-form{
-  margin: 10px 0px;
-  padding: 0px 0px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 5px 0px 0px;
   margin-left: 33px;
   margin-right: 30px;
   justify-content: left;
@@ -146,23 +148,15 @@
   font-family:Georgia, 'Times New Roman', Times, serif;
 
 }
-.form label input{
-  width: 95%;
-  margin-top: 12px;
-  margin-bottom: 12px;
-  padding: 4px 0px 0px 2px;
-  /* color: #fff; */
-  
-}
 .submit{
-  background-color: blue;
-  margin-top: 12px;
-  width: 100%;
+  background-color: rgb(8, 43, 243);
+  margin: 12px 0px 0px 0px;
   padding: 8px 0px 4px 2px;
   border-radius: 6px;
   font-size: 16px;
   font-weight:bolder;
-  color: #fff;
+  color: rgb(255, 255, 255);
   cursor: pointer;
+  width: 100%;
   
 }

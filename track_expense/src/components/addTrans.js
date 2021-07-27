@@ -28,11 +28,12 @@ function AddTransaction(){
         
 
         addTransaction({
+            id : new Date().getTime(),
             amount: Number(newAmount),
             desc: newDesc
         })
         setDesc('');
-        setAmount();
+        setAmount('');
 
     }
                 return(
@@ -43,7 +44,7 @@ function AddTransaction(){
 
 
                 <form className='transaction-form' onSubmit={handleAddition}>
-                    <label>
+                    <label className='desc'>
                         Enter Discription
                         
                         <input type='text' onChange={(ev) => setDesc(ev.target.value)} required value={newDesc} placeholder='Description'/>

@@ -1,4 +1,4 @@
-const TransactionReducer = ((state , action)=>{
+const TransactionReducer = (state , action)=>{
     switch(action.type){
 
 
@@ -21,5 +21,5 @@ const TransactionReducer = ((state , action)=>{
     };
     
 }
-)
+
 export default TransactionReducer;

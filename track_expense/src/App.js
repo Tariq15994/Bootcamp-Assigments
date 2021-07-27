@@ -8,27 +8,22 @@ import Expense from './components/expense';
 
 function App() {
   return (
-    // <dic className='header'>
+   
+    // <TransactionProvider>
+
     <TransactionProvider>
-
-      {/* <Header> */}
-      {/* <Expense />
-      <TransactionHistory />
-      <AddTransaction /> */}
-      {/* </Header> */}
-
       <div className='header'>
+      
         <h1 className='textcenter'>Expense Traker </h1>
         <Expense />
         <TransactionHistory />
         <AddTransaction />
+        
       </div>
+      </TransactionProvider>
 
-
-
-    </TransactionProvider>
-    // </dic>
-  );
+    
+  )
 }
 
 export default App;

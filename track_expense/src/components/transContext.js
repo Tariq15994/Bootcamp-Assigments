@@ -1,8 +1,8 @@
 import { React, createContext, useReducer } from 'react';
 import TransactionReducer from './transReducer';
-const initialTrans ={transactions : [{
-     id: 0, amount: 400, desc: "Cash" 
-     }]
+const initialTrans ={transactions : [
+    
+]
     }
 
 
